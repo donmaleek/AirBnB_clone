@@ -33,7 +33,7 @@ def parse(arg):
 
 
 class HBNBCommand(cmd.Cmd):
-    """Welcome to Eng. Mathias command interpreter.
+    intro = """Welcome to Eng. Mathias command interpreter.
 
     Attributes:
         prompt (str): The command prompt.

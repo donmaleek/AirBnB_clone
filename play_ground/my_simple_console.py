@@ -6,7 +6,9 @@ import re
 #from models import storage
 
 class mycmd(cmd.Cmd):
-	intro = "welcome to ENG. Mathias cmd, type 'help' for more commands. \n"
+	intro = """welcome to ENG. Mathias Mramba Console, 
+		Are you Ready to do hard things?
+		Type 'help' for more commands. \n"""
 	prompt = "$"
 	__classes = {
 		"BaseModel",
