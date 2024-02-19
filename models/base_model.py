@@ -26,12 +26,12 @@ class BaseModel:
                 else:
                     self.__dict__[w] = a
         else:
-            models.storage.new(self)
+            models.engine.file_storage.new(self)
 
     def save(self):
         """Update updated_at with the current datetime."""
         self.updated_at = datetime.today()
-        models.storage.save()
+        models.engine.file_storage.save()
 
     def to_dict(self):
         """Return the dictionary of the BaseModel instance.
