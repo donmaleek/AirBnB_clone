@@ -1,0 +1,1 @@
+my web static project
